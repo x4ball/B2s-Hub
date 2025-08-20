@@ -12,13 +12,6 @@ local layar = WindUI:CreateWindow({
     BackgroundImageTransparency = 0.42,
     HideSearchBar = true,
     ScrollBarEnabled = false,
-    
-    User = {
-        Enabled = true,
-        Callback = function()
-            print("clicked")
-        end,
-    },
 })
 local sektionmain = layar:Section({
     Title = "Main",
