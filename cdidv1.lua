@@ -4,6 +4,7 @@ local layar = WindUI:CreateWindow({
     Icon = "shield-check",
     Author = "BY -mhdfa1z",
     Folder = "B2S HUB | CDID",
+    
     Size = UDim2.fromOffset(580, 460),
     Transparent = true,
     Theme = "Dark",
@@ -23,6 +24,7 @@ local maintab = sektionmain:Tab({
 })
 local sektionmaintab = maintab:Section({ 
     Title = "Home",
+    Icon = "",
 })
 local paragafmaintab = sektionmaintab:Paragraph({
     local player = game.Players.LocalPlayer
